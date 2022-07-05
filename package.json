@@ -1,0 +1,28 @@
+{
+  "name": "kiitos.333.eco",
+  "version": "1.0.0",
+  "description": "Enlightened Intelligence",
+  "main": "kiitos.mjs",
+  "scripts": {
+    "start": "sudo nodemon kiitos.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "renew": "sudo certbot --manual --preferred-challenges dns certonly -d kiitos.333.eco",
+    "copy1": "sudo cp /etc/letsencrypt/live/kiitos.333.eco/fullchain.pem /Users/heartbank/Desktop/HeartBank®/Silicon\\ Wat\\ LLC/dApps/333.eco/kiitos.333.eco",
+    "copy2": "sudo cp /etc/letsencrypt/live/kiitos.333.eco/privkey.pem /Users/heartbank/Desktop/HeartBank®/Silicon\\ Wat\\ LLC/dApps/333.eco/kiitos.333.eco"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/333eco/kiitos.333.eco.git"
+  },
+  "author": "THonly™",
+  "license": "HeartBank®",
+  "bugs": {
+    "url": "https://github.com/333eco/kiitos.333.eco/issues"
+  },
+  "homepage": "https://github.com/333eco/kiitos.333.eco#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6"
+  }
+}
