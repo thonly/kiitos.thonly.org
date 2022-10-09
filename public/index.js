@@ -1,4 +1,4 @@
-document.body.onclick = () => document.location.href = "https://thonly.org";
+import "/public/components/logo-333/element.mjs";
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}

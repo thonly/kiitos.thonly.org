@@ -5,12 +5,12 @@ import cors from 'cors';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
-// expires on 2022-10-02
+// expires on 2023-1-07
 const cert = fs.readFileSync('private/fullchain.pem');
 const key = fs.readFileSync('private/privkey.pem');
 
 const bot = express();
-bot.use(express.static('public'));
+bot.use('/public', express.static('public'));
 bot.use(cors());
 bot.use(express.json());
 bot.use(express.urlencoded({ extended: true })); 
