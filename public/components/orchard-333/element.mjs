@@ -1,6 +1,6 @@
 import template from './template.mjs';
 
-class SwHistory extends HTMLElement {
+class Orchard333 extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
@@ -12,4 +12,4 @@ class SwHistory extends HTMLElement {
     }
 }
 
-customElements.define("sw-history", SwHistory);
+customElements.define("orchard-333", Orchard333);

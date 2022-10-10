@@ -1,3 +1,7 @@
+:host {
+	cursor: pointer;
+}
+
 span {
 	opacity: 0;
 	font-size: 40pt;
